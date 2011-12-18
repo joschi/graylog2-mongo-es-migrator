@@ -1,0 +1,29 @@
+# URL to ElasticSearch HTTP API endpoint
+es_url: 'http://localhost:9200'
+
+# Name of the ElasticSearch index
+es_index_name: 'graylog2'
+
+# Should we delete an existing index with the same name and recreate it?
+es_delete_index: true
+
+# Create log file about ElasticSearch communications
+# es_debug_log: 'elasticsearch.log'
+
+# MongoDB host name
+mongo_host: 'localhost'
+
+# MongoDB port
+mongo_port: 27017
+
+# Use authentication with MongoDB?
+mongo_use_auth: false
+
+# MongoDB username
+mongo_username: ''
+
+# MongoDB password
+mongo_password: ''
+
+# Name of the MongoDB database
+mongo_db: 'graylog2'
