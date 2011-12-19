@@ -10,10 +10,16 @@ Usage
 After you've downloaded the script you should edit the configuration
 file in `config/migrator.yml`.
 If the ElasticSearch and MongoDB servers are running on the same
-system (`localhost`) and MongoDB doesn't need authentication you can
+system (on `localhost`) and MongoDB doesn't need authentication you can
 keep the file as is.
 
-You can start the migration by running:
+To download all required dependencies you need insall them by running
+Bundler with:
+
+    bundle install
+
+
+After that you can start the migration by running:
 
     ruby migrator.rb
 
