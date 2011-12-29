@@ -13,7 +13,7 @@ If the ElasticSearch and MongoDB servers are running on the same
 system (on `localhost`) and MongoDB doesn't need authentication you can
 keep the file as is.
 
-To download all required dependencies you need insall them by running
+To download all required dependencies you need to install them by running
 Bundler with:
 
     bundle install
